@@ -5,6 +5,7 @@
 # copy this modyule at this path - "/home/roopak/Documents/iq9/build-qcom-wayland/tmp-glibc/work-shared/qcs9075-iq-9075-evk/kernel-source"
 # Build stmmac kernel module and copy to IQ9 device
 # Usage: ./build-and-deploy-stmmac.sh
+# This script can be used if the deives is avilable remotely ( i.e through ssh using wifi or ethernet )
 # =============================================================================
 
 set -e  # exit on any error
