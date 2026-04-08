@@ -1,0 +1,1452 @@
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models$ ls
+networking
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models$ cd networking/
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../.gitmodules
+	../
+
+nothing added to commit but untracked files present (use "git add" to track)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking$ git add .
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   nnDPI/CombinedPackets/allpkts.feather
+	new file:   nnDPI/CompletePCAPs/AIMchat1.pcapng
+	new file:   nnDPI/CompletePCAPs/AIMchat2.pcapng
+	new file:   nnDPI/CompletePCAPs/ICQchat1.pcapng
+	new file:   nnDPI/CompletePCAPs/ICQchat2.pcapng
+	new file:   nnDPI/CompletePCAPs/aim_chat_3a.pcap
+	new file:   nnDPI/CompletePCAPs/aim_chat_3b.pcap
+	new file:   nnDPI/CompletePCAPs/email2a.pcap
+	new file:   nnDPI/CompletePCAPs/email2b.pcap
+	new file:   nnDPI/CompletePCAPs/facebook_chat_4a.pcap
+	new file:   nnDPI/CompletePCAPs/facebookchat1.pcapng
+	new file:   nnDPI/CompletePCAPs/facebookchat2.pcapng
+	new file:   nnDPI/CompletePCAPs/facebookchat3.pcapng
+	new file:   nnDPI/CompletePCAPs/gmailchat1.pcapng
+	new file:   nnDPI/CompletePCAPs/icq_chat_3a.pcap
+	new file:   nnDPI/CompletePCAPs/icq_chat_3b.pcap
+	new file:   nnDPI/CompletePCAPs/scpDown4.pcap
+	new file:   nnDPI/CompletePCAPs/scpUp3.pcap
+	new file:   nnDPI/CompletePCAPs/scpUp5.pcap
+	new file:   nnDPI/CompletePCAPs/skype_file1.pcap
+	new file:   nnDPI/CompletePCAPs/skype_file4.pcapng
+	new file:   nnDPI/CompletePCAPs/skype_file5.pcapng
+	new file:   nnDPI/CompletePCAPs/spotify2.pcap
+	new file:   nnDPI/CompletePCAPs/vpn_aim_chat1a.pcap
+	new file:   nnDPI/CompletePCAPs/vpn_aim_chat1b.pcap
+	new file:   nnDPI/CompletePCAPs/vpn_email2a.pcap
+	new file:   nnDPI/CompletePCAPs/vpn_icq_chat1a.pcap
+	new file:   nnDPI/CompletePCAPs/vpn_icq_chat1b.pcap
+	new file:   nnDPI/CompletePCAPs/vpn_skype_chat1a.pcap
+	new file:   nnDPI/CompletePCAPs/vpn_skype_chat1b.pcap
+	new file:   nnDPI/Docs/nnDPI_NILES.pptx
+	new file:   nnDPI/LICENSE
+	new file:   nnDPI/Model/nndpi.h5
+	new file:   nnDPI/ProcessedPackets/AIMchat1.pcapng.feather
+	new file:   nnDPI/ProcessedPackets/AIMchat2.pcapng.feather
+	new file:   nnDPI/ProcessedPackets/ICQchat1.pcapng.feather
+	new file:   nnDPI/ProcessedPackets/ICQchat2.pcapng.feather
+	new file:   nnDPI/ProcessedPackets/aim_chat_3a.pcap.feather
+	new file:   nnDPI/ProcessedPackets/aim_chat_3b.pcap.feather
+	new file:   nnDPI/ProcessedPackets/email2a.pcap.feather
+	new file:   nnDPI/ProcessedPackets/email2b.pcap.feather
+	new file:   nnDPI/ProcessedPackets/facebook_chat_4a.pcap.feather
+	new file:   nnDPI/ProcessedPackets/facebookchat1.pcapng.feather
+	new file:   nnDPI/ProcessedPackets/facebookchat2.pcapng.feather
+	new file:   nnDPI/ProcessedPackets/facebookchat3.pcapng.feather
+	new file:   nnDPI/ProcessedPackets/gmailchat1.pcapng.feather
+	new file:   nnDPI/ProcessedPackets/icq_chat_3a.pcap.feather
+	new file:   nnDPI/ProcessedPackets/icq_chat_3b.pcap.feather
+	new file:   nnDPI/ProcessedPackets/scpDown4.pcap.feather
+	new file:   nnDPI/ProcessedPackets/scpUp3.pcap.feather
+	new file:   nnDPI/ProcessedPackets/scpUp5.pcap.feather
+	new file:   nnDPI/ProcessedPackets/skype_file1.pcap.feather
+	new file:   nnDPI/ProcessedPackets/skype_file4.pcapng.feather
+	new file:   nnDPI/ProcessedPackets/skype_file5.pcapng.feather
+	new file:   nnDPI/ProcessedPackets/spotify2.pcap.feather
+	new file:   nnDPI/ProcessedPackets/vpn_aim_chat1a.pcap.feather
+	new file:   nnDPI/ProcessedPackets/vpn_aim_chat1b.pcap.feather
+	new file:   nnDPI/ProcessedPackets/vpn_email2a.pcap.feather
+	new file:   nnDPI/ProcessedPackets/vpn_icq_chat1a.pcap.feather
+	new file:   nnDPI/ProcessedPackets/vpn_icq_chat1b.pcap.feather
+	new file:   nnDPI/ProcessedPackets/vpn_skype_chat1a.pcap.feather
+	new file:   nnDPI/ProcessedPackets/vpn_skype_chat1b.pcap.feather
+	new file:   nnDPI/README.md
+	new file:   nnDPI/nndpi_preprocessing.py
+	new file:   nnDPI/nndpi_train.py
+	new file:   nnDPI/requirements.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../.gitmodules
+
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking$ ls
+nnDPI
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking$ git commit
+[main eac9887] Included the base nnDPI from git repo     Below is the clone link     git clone https://github.com/ma7555/nnDPI.git
+ 66 files changed, 1362 insertions(+)
+ create mode 100644 ai-Models/networking/nnDPI/CombinedPackets/allpkts.feather
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/AIMchat1.pcapng
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/AIMchat2.pcapng
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/ICQchat1.pcapng
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/ICQchat2.pcapng
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/aim_chat_3a.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/aim_chat_3b.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/email2a.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/email2b.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/facebook_chat_4a.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/facebookchat1.pcapng
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/facebookchat2.pcapng
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/facebookchat3.pcapng
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/gmailchat1.pcapng
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/icq_chat_3a.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/icq_chat_3b.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/scpDown4.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/scpUp3.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/scpUp5.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/skype_file1.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/skype_file4.pcapng
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/skype_file5.pcapng
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/spotify2.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/vpn_aim_chat1a.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/vpn_aim_chat1b.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/vpn_email2a.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/vpn_icq_chat1a.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/vpn_icq_chat1b.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/vpn_skype_chat1a.pcap
+ create mode 100644 ai-Models/networking/nnDPI/CompletePCAPs/vpn_skype_chat1b.pcap
+ create mode 100644 ai-Models/networking/nnDPI/Docs/nnDPI_NILES.pptx
+ create mode 100644 ai-Models/networking/nnDPI/LICENSE
+ create mode 100644 ai-Models/networking/nnDPI/Model/nndpi.h5
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/AIMchat1.pcapng.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/AIMchat2.pcapng.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/ICQchat1.pcapng.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/ICQchat2.pcapng.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/aim_chat_3a.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/aim_chat_3b.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/email2a.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/email2b.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/facebook_chat_4a.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/facebookchat1.pcapng.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/facebookchat2.pcapng.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/facebookchat3.pcapng.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/gmailchat1.pcapng.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/icq_chat_3a.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/icq_chat_3b.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/scpDown4.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/scpUp3.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/scpUp5.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/skype_file1.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/skype_file4.pcapng.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/skype_file5.pcapng.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/spotify2.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/vpn_aim_chat1a.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/vpn_aim_chat1b.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/vpn_email2a.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/vpn_icq_chat1a.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/vpn_icq_chat1b.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/vpn_skype_chat1a.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedPackets/vpn_skype_chat1b.pcap.feather
+ create mode 100644 ai-Models/networking/nnDPI/README.md
+ create mode 100644 ai-Models/networking/nnDPI/nndpi_preprocessing.py
+ create mode 100644 ai-Models/networking/nnDPI/nndpi_train.py
+ create mode 100644 ai-Models/networking/nnDPI/requirements.txt
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../.gitmodules
+
+nothing added to commit but untracked files present (use "git add" to track)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking$ git push
+Enumerating objects: 77, done.
+Counting objects: 100% (77/77), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (71/71), done.
+Writing objects: 100% (76/76), 34.72 MiB | 2.35 MiB/s, done.
+Total 76 (delta 19), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (19/19), done.
+remote: warning: See https://gh.io/lfs for more information.
+remote: warning: File ai-Models/networking/nnDPI/CombinedPackets/allpkts.feather is 51.12 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To github.com:trumindssw/iq9.git
+   461b3cc..eac9887  main -> main
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking$ git log
+commit eac9887acdfeb0cbccda3a0674da90f730bd2d2f (HEAD -> main, origin/main, origin/HEAD)
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 14:45:49 2026 +0530
+
+    Included the base nnDPI from git repo
+        Below is the clone link
+        git clone https://github.com/ma7555/nnDPI.git
+
+commit 461b3ccd05e852785b76e0bffb0d2a74832ab0cb
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 12:13:16 2026 +0530
+
+    Included the step to install pyarrow - Need pyarrow for to handle Feather files
+
+commit 84f0d5e3ff4c74facacc282caff3abd270353792
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 11:53:51 2026 +0530
+
+    Included nnDPI explanantion doc with an example
+
+commit 8b7f1bf8789e0787411224924cd606a76178ae92
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 10:59:18 2026 +0530
+
+    Included DPI related documents - nDPI and nnDPI
+
+commit 194a7408a86168f67dfe8c0c3245f19c34fb0213
+Author: roopak <roopak.houji@truminds.com>
+Date:   Thu Apr 2 15:13:27 2026 +0530
+
+    Minior chnages in the folder strcuture and script file names
+
+commit e20eeef315439b779e6d2cf00daa7613c0b392c1
+Author: roopak <roopak.houji@truminds.com>
+Date:   Thu Apr 2 15:07:00 2026 +0530
+
+    Updated and included new script files for building modules and images
+
+commit 133a739fc1020c974102bc1fb5df0e7d30174866
+Author: roopak <roopak.houji@truminds.com>
+Date:   Thu Apr 2 14:56:53 2026 +0530
+
+    Initial docs for compliation steps for image and driver module build
+
+commit eee98e2eb23e383fca8e87d6638c18ecbd660a92
+Author: roopak <roopak.houji@truminds.com>
+Date:   Thu Apr 2 14:45:59 2026 +0530
+
+    Scripts to build and insert individual modules
+
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nnDPI/requirements.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../.gitmodules
+
+no changes added to commit (use "git add" and/or "git commit -a")
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking$ git add -u
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   nnDPI/requirements.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../.gitmodules
+
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking$ git commit
+[main 2df2579] Included missling packages for python3 1. dpkt - dpkt_fix is an outdated package written for Python 2, The dpkt_fix package was a temporary, unofficial fork created years ago to fix a specific bug in version 1.7 of dpkt. Since then, the official dpkt package has been heavily updated, fully supports Python 3, and includes all those old fixes
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking$ git log
+commit 2df257966917c741dcfed8386f62cfbc03373233 (HEAD -> main)
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 14:49:17 2026 +0530
+
+    Included missling packages for python3
+    1. dpkt - dpkt_fix is an outdated package written for Python 2, The dpkt_fix package was a temporary,
+    unofficial fork created years ago to fix a specific bug in version 1.7 of dpkt. Since then,
+    the official dpkt package has been heavily updated, fully supports Python 3, and includes all
+    those old fixes
+    
+    2. pyarrow - While Pandas comes with standard CSV support out of the box, it requires an extra library
+    called pyarrow to handle Feather files.
+
+commit eac9887acdfeb0cbccda3a0674da90f730bd2d2f (origin/main, origin/HEAD)
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 14:45:49 2026 +0530
+
+    Included the base nnDPI from git repo
+        Below is the clone link
+        git clone https://github.com/ma7555/nnDPI.git
+
+commit 461b3ccd05e852785b76e0bffb0d2a74832ab0cb
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 12:13:16 2026 +0530
+
+    Included the step to install pyarrow - Need pyarrow for to handle Feather files
+
+commit 84f0d5e3ff4c74facacc282caff3abd270353792
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 11:53:51 2026 +0530
+
+    Included nnDPI explanantion doc with an example
+
+commit 8b7f1bf8789e0787411224924cd606a76178ae92
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 10:59:18 2026 +0530
+
+    Included DPI related documents - nDPI and nnDPI
+
+commit 194a7408a86168f67dfe8c0c3245f19c34fb0213
+Author: roopak <roopak.houji@truminds.com>
+Date:   Thu Apr 2 15:13:27 2026 +0530
+
+    Minior chnages in the folder strcuture and script file names
+
+commit e20eeef315439b779e6d2cf00daa7613c0b392c1
+Author: roopak <roopak.houji@truminds.com>
+Date:   Thu Apr 2 15:07:00 2026 +0530
+
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking$ cd nnDPI/
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ pip3 install -r requirements.txt
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: dpkt in /home/roopak/.local/lib/python3.10/site-packages (from -r requirements.txt (line 1)) (1.9.8)
+Requirement already satisfied: numpy in /home/roopak/.local/lib/python3.10/site-packages (from -r requirements.txt (line 2)) (2.2.6)
+Requirement already satisfied: pandas in /home/roopak/.local/lib/python3.10/site-packages (from -r requirements.txt (line 3)) (2.3.3)
+Requirement already satisfied: scikit_learn in /home/roopak/.local/lib/python3.10/site-packages (from -r requirements.txt (line 4)) (1.7.2)
+Requirement already satisfied: tensorflow in /home/roopak/.local/lib/python3.10/site-packages (from -r requirements.txt (line 5)) (2.21.0)
+Requirement already satisfied: tqdm in /home/roopak/.local/lib/python3.10/site-packages (from -r requirements.txt (line 6)) (4.67.3)
+Requirement already satisfied: pyarrow in /home/roopak/.local/lib/python3.10/site-packages (from -r requirements.txt (line 7)) (23.0.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/roopak/.local/lib/python3.10/site-packages (from pandas->-r requirements.txt (line 3)) (2.9.0.post0)
+Requirement already satisfied: tzdata>=2022.7 in /home/roopak/.local/lib/python3.10/site-packages (from pandas->-r requirements.txt (line 3)) (2026.1)
+Requirement already satisfied: pytz>=2020.1 in /usr/lib/python3/dist-packages (from pandas->-r requirements.txt (line 3)) (2022.1)
+Requirement already satisfied: joblib>=1.2.0 in /home/roopak/.local/lib/python3.10/site-packages (from scikit_learn->-r requirements.txt (line 4)) (1.5.3)
+Requirement already satisfied: scipy>=1.8.0 in /home/roopak/.local/lib/python3.10/site-packages (from scikit_learn->-r requirements.txt (line 4)) (1.15.3)
+Requirement already satisfied: threadpoolctl>=3.1.0 in /home/roopak/.local/lib/python3.10/site-packages (from scikit_learn->-r requirements.txt (line 4)) (3.6.0)
+Requirement already satisfied: six>=1.12.0 in /usr/lib/python3/dist-packages (from tensorflow->-r requirements.txt (line 5)) (1.16.0)
+Requirement already satisfied: libclang>=13.0.0 in /home/roopak/.local/lib/python3.10/site-packages (from tensorflow->-r requirements.txt (line 5)) (18.1.1)
+Requirement already satisfied: grpcio<2.0,>=1.24.3 in /home/roopak/.local/lib/python3.10/site-packages (from tensorflow->-r requirements.txt (line 5)) (1.80.0)
+Requirement already satisfied: typing_extensions>=3.6.6 in /home/roopak/.local/lib/python3.10/site-packages (from tensorflow->-r requirements.txt (line 5)) (4.15.0)
+Requirement already satisfied: packaging in /home/roopak/.local/lib/python3.10/site-packages (from tensorflow->-r requirements.txt (line 5)) (26.0)
+Requirement already satisfied: requests<3,>=2.21.0 in /usr/lib/python3/dist-packages (from tensorflow->-r requirements.txt (line 5)) (2.25.1)
+Requirement already satisfied: h5py<3.15.0,>=3.11.0 in /home/roopak/.local/lib/python3.10/site-packages (from tensorflow->-r requirements.txt (line 5)) (3.14.0)
+Requirement already satisfied: wrapt>=1.11.0 in /usr/lib/python3/dist-packages (from tensorflow->-r requirements.txt (line 5)) (1.13.3)
+Requirement already satisfied: flatbuffers>=25.9.23 in /home/roopak/.local/lib/python3.10/site-packages (from tensorflow->-r requirements.txt (line 5)) (25.12.19)
+Requirement already satisfied: google_pasta>=0.1.1 in /home/roopak/.local/lib/python3.10/site-packages (from tensorflow->-r requirements.txt (line 5)) (0.2.0)
+Requirement already satisfied: gast!=0.5.0,!=0.5.1,!=0.5.2,>=0.2.1 in /home/roopak/.local/lib/python3.10/site-packages (from tensorflow->-r requirements.txt (line 5)) (0.7.0)
+Requirement already satisfied: setuptools in /usr/lib/python3/dist-packages (from tensorflow->-r requirements.txt (line 5)) (59.6.0)
+Requirement already satisfied: protobuf<8.0.0,>=6.31.1 in /home/roopak/.local/lib/python3.10/site-packages (from tensorflow->-r requirements.txt (line 5)) (7.34.1)
+Requirement already satisfied: opt_einsum>=2.3.2 in /home/roopak/.local/lib/python3.10/site-packages (from tensorflow->-r requirements.txt (line 5)) (3.4.0)
+Requirement already satisfied: astunparse>=1.6.0 in /home/roopak/.local/lib/python3.10/site-packages (from tensorflow->-r requirements.txt (line 5)) (1.6.3)
+Requirement already satisfied: absl-py>=1.0.0 in /home/roopak/.local/lib/python3.10/site-packages (from tensorflow->-r requirements.txt (line 5)) (2.4.0)
+Requirement already satisfied: termcolor>=1.1.0 in /home/roopak/.local/lib/python3.10/site-packages (from tensorflow->-r requirements.txt (line 5)) (3.3.0)
+Requirement already satisfied: ml_dtypes<1.0.0,>=0.5.1 in /home/roopak/.local/lib/python3.10/site-packages (from tensorflow->-r requirements.txt (line 5)) (0.5.4)
+Requirement already satisfied: keras>=3.12.0 in /home/roopak/.local/lib/python3.10/site-packages (from tensorflow->-r requirements.txt (line 5)) (3.12.1)
+Requirement already satisfied: wheel<1.0,>=0.23.0 in /usr/lib/python3/dist-packages (from astunparse>=1.6.0->tensorflow->-r requirements.txt (line 5)) (0.37.1)
+Requirement already satisfied: namex in /home/roopak/.local/lib/python3.10/site-packages (from keras>=3.12.0->tensorflow->-r requirements.txt (line 5)) (0.1.0)
+Requirement already satisfied: rich in /home/roopak/.local/lib/python3.10/site-packages (from keras>=3.12.0->tensorflow->-r requirements.txt (line 5)) (14.3.3)
+Requirement already satisfied: optree in /home/roopak/.local/lib/python3.10/site-packages (from keras>=3.12.0->tensorflow->-r requirements.txt (line 5)) (0.19.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /home/roopak/.local/lib/python3.10/site-packages (from rich->keras>=3.12.0->tensorflow->-r requirements.txt (line 5)) (4.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/roopak/.local/lib/python3.10/site-packages (from rich->keras>=3.12.0->tensorflow->-r requirements.txt (line 5)) (2.20.0)
+Requirement already satisfied: mdurl~=0.1 in /home/roopak/.local/lib/python3.10/site-packages (from markdown-it-py>=2.2.0->rich->keras>=3.12.0->tensorflow->-r requirements.txt (line 5)) (0.1.2)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+
+nothing added to commit but untracked files present (use "git add" to track)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ python3 nndpi_preprocessing.py \
+  --n_jobs=1 \
+  --pcap_dir=./CompletePCAPs/ \
+  --processed_pcap_dir=./ProcessedPackets/ \
+  --max_len=1500 \
+  --one_df=False
+0it [00:00, ?it/s]
+Combining all processed packets into a single DataFrame..
+100%|███████████████████████████████████████████████████████████████████| 29/29 [00:00<00:00, 161.76it/s]
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   CombinedPackets/allpkts.feather
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+
+no changes added to commit (use "git add" and/or "git commit -a")
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ ls
+CombinedPackets  Docs     Model                   nndpi_train.py    README.md
+CompletePCAPs    LICENSE  nndpi_preprocessing.py  ProcessedPackets  requirements.txt
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git add -u
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   CombinedPackets/allpkts.feather
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git commit -m "Feather file after processing using 'nndpi_preprocessing.py file' "
+[main f719d8d] Feather file after processing using 'nndpi_preprocessing.py file'
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rewrite ai-Models/networking/nnDPI/CombinedPackets/allpkts.feather (74%)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+	nndpi_execution.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git add -u
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+	nndpi_execution.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git add nndpi_execution.docx 
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   nndpi_execution.docx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git commit -m "Included execution steps document"
+[main ea13610] Included execution steps document
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ai-Models/networking/nnDPI/nndpi_execution.docx
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ sed -i 's/inp = Input(shape=(max_len))/inp = Input(shape=(max_len,))/' nndpi_train.py
+
+sed -i 's/def create_model(max_len, dropout_rate=0.05):/def create_model(max_len, dropout_rate=0.05, n_tag_1=4, n_tag_2=8, n_tag_3=9, n_tag_4=6):/' nndpi_train.py
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nndpi_train.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+
+no changes added to commit (use "git add" and/or "git commit -a")
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ gitk
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nndpi_train.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+
+no changes added to commit (use "git add" and/or "git commit -a")
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git add -u
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   nndpi_train.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git commit
+[main 8fd6c0c] Fix for nndpi_train.py Change 1 — Fix Input Shape Tuple In Python, (max_len) is not a tuple — it is just max_len wrapped in parentheses (just grouping, no tuple created). max_len = 100
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ vi inference-pc.py
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ chmod 777 8
+chmod: cannot access '8': No such file or directory
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ chmod 777 *
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ ./inference-pc.py 
+./inference-pc.py: line 1: import: command not found
+./inference-pc.py: line 2: import: command not found
+./inference-pc.py: line 3: import: command not found
+./inference-pc.py: line 4: import: command not found
+./inference-pc.py: line 5: from: command not found
+./inference-pc.py: line 7: N_TAG_1: command not found
+./inference-pc.py: line 8: N_TAG_2: command not found
+./inference-pc.py: line 9: N_TAG_3: command not found
+./inference-pc.py: line 10: N_TAG_4: command not found
+./inference-pc.py: line 12: syntax error near unexpected token `"Building model architecture..."'
+./inference-pc.py: line 12: `print("Building model architecture...")'
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ cat inference-pc.py 
+import numpy as np
+import pandas as pd
+import tensorflow as tf
+import os
+from nndpi_train import create_model
+ 
+N_TAG_1 = 7
+N_TAG_2 = 18
+N_TAG_3 = 28
+N_TAG_4 = 13
+ 
+print("Building model architecture...")
+model = create_model(max_len=1500, n_tag_1=N_TAG_1, n_tag_2=N_TAG_2, n_tag_3=N_TAG_3, n_tag_4=N_TAG_4)
+ 
+print("Loading weights...")
+model.load_weights('./Model/nndpi.h5', by_name=True)
+print("Model loaded successfully!\n")
+ 
+# These are the metadata columns to exclude - only keep byte columns (0-1499)
+META_COLS = ['tag_1', 'tag_2', 'tag_3', 'tag_4', 'protocol', 'filename', 'ix']
+BYTE_COLS = [str(i) for i in range(1500)]
+ 
+feather_dir = './ProcessedPackets/'
+for fname in sorted(os.listdir(feather_dir)):
+    if not fname.endswith('.feather'):
+        continue
+    fpath = os.path.join(feather_dir, fname)
+    df = pd.read_feather(fpath)
+ 
+    # Drop metadata columns if present, keep only byte columns that exist
+    cols_to_use = [c for c in BYTE_COLS if c in df.columns]
+    df = df[cols_to_use]
+ 
+    print(f"File: {fname} — {len(df)} packets, {len(cols_to_use)} byte columns")
+ 
+    input_array = np.array(df.values, dtype=np.float32)
+    preds = model.predict(input_array, verbose=0)
+ 
+    t1 = np.argmax(preds[0], axis=1)
+    t2 = np.argmax(preds[1], axis=1)
+    t3 = np.argmax(preds[2], axis=1)
+    t4 = np.argmax(preds[3], axis=1)
+ 
+    for i in range(min(3, len(t1))):
+        print(f"  Packet {i+1}:")
+        print(f"    tag_1 (traffic type) : class {t1[i]} ({preds[0][i][t1[i]]*100:.1f}%)")
+        print(f"    tag_2 (application)  : class {t2[i]} ({preds[1][i][t2[i]]*100:.1f}%)")
+        print(f"    tag_3 (flow type)    : class {t3[i]} ({preds[2][i][t3[i]]*100:.1f}%)")
+        print(f"    tag_4 (vpn status)   : class {t4[i]} ({preds[3][i][t4[i]]*100:.1f}%)")
+    print()
+
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   LICENSE
+	modified:   README.md
+	modified:   nndpi_execution.docx
+	modified:   nndpi_preprocessing.py
+	modified:   nndpi_train.py
+	modified:   requirements.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+	inference-pc.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ gitk
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git stash
+Saved working directory and index state WIP on main: 8fd6c0c Fix for nndpi_train.py Change 1 — Fix Input Shape Tuple In Python, (max_len) is not a tuple — it is just max_len wrapped in parentheses (just grouping, no tuple created). max_len = 100
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+	inference-pc.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git add -u
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+	inference-pc.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git add inference-pc.py 
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   inference-pc.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git commit -m "Included inference file for PC, which can generate feather file using pandas"
+[main 0a0b995] Included inference file for PC, which can generate feather file using pandas
+ 1 file changed, 51 insertions(+)
+ create mode 100755 ai-Models/networking/nnDPI/inference-pc.py
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ python3 inference-pc.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775641763.727986   35164 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1775641763.730243   35164 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+I0000 00:00:1775641763.810664   35164 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775641764.805921   35164 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1775641764.806243   35164 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+Building model architecture...
+/home/roopak/.local/lib/python3.10/site-packages/keras/src/layers/core/embedding.py:97: UserWarning: Argument `input_length` is deprecated. Just remove it.
+  warnings.warn(
+E0000 00:00:1775641765.249396   35164 cuda_platform.cc:52] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+Loading weights...
+Model loaded successfully!
+
+File: AIMchat1.pcapng.feather — 178 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 4 (55.1%)
+    tag_3 (flow type)    : class 6 (52.0%)
+    tag_4 (vpn status)   : class 2 (99.9%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (99.9%)
+    tag_2 (application)  : class 0 (71.7%)
+    tag_3 (flow type)    : class 0 (73.7%)
+    tag_4 (vpn status)   : class 2 (99.9%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (79.4%)
+    tag_3 (flow type)    : class 0 (79.5%)
+    tag_4 (vpn status)   : class 2 (99.9%)
+
+File: AIMchat2.pcapng.feather — 166 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (96.5%)
+    tag_3 (flow type)    : class 0 (95.2%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (98.8%)
+    tag_3 (flow type)    : class 0 (98.7%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (90.1%)
+    tag_3 (flow type)    : class 0 (89.8%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+
+File: ICQchat1.pcapng.feather — 194 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (99.9%)
+    tag_2 (application)  : class 7 (99.7%)
+    tag_3 (flow type)    : class 10 (99.8%)
+    tag_4 (vpn status)   : class 2 (98.6%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 7 (98.1%)
+    tag_3 (flow type)    : class 10 (97.8%)
+    tag_4 (vpn status)   : class 2 (99.6%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 4 (57.3%)
+    tag_3 (flow type)    : class 6 (53.9%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+
+File: ICQchat2.pcapng.feather — 109 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 1 (58.8%)
+    tag_2 (application)  : class 16 (45.1%)
+    tag_3 (flow type)    : class 26 (49.2%)
+    tag_4 (vpn status)   : class 1 (54.3%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 7 (75.7%)
+    tag_3 (flow type)    : class 10 (73.5%)
+    tag_4 (vpn status)   : class 2 (96.3%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 7 (74.1%)
+    tag_3 (flow type)    : class 10 (68.8%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+
+File: aim_chat_3a.pcap.feather — 815 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (87.2%)
+    tag_3 (flow type)    : class 0 (86.9%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (68.8%)
+    tag_3 (flow type)    : class 0 (68.1%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (96.6%)
+    tag_3 (flow type)    : class 0 (96.4%)
+    tag_4 (vpn status)   : class 2 (99.9%)
+
+File: aim_chat_3b.pcap.feather — 1466 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (85.8%)
+    tag_3 (flow type)    : class 0 (84.4%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (99.9%)
+    tag_2 (application)  : class 2 (67.9%)
+    tag_3 (flow type)    : class 3 (66.9%)
+    tag_4 (vpn status)   : class 2 (99.7%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (100.0%)
+    tag_3 (flow type)    : class 0 (100.0%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+
+File: email2a.pcap.feather — 2257 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 3 (100.0%)
+    tag_2 (application)  : class 1 (100.0%)
+    tag_3 (flow type)    : class 1 (100.0%)
+    tag_4 (vpn status)   : class 3 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 3 (100.0%)
+    tag_2 (application)  : class 1 (100.0%)
+    tag_3 (flow type)    : class 1 (100.0%)
+    tag_4 (vpn status)   : class 3 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 3 (100.0%)
+    tag_2 (application)  : class 1 (100.0%)
+    tag_3 (flow type)    : class 1 (100.0%)
+    tag_4 (vpn status)   : class 3 (100.0%)
+
+File: email2b.pcap.feather — 4131 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 3 (100.0%)
+    tag_2 (application)  : class 1 (100.0%)
+    tag_3 (flow type)    : class 1 (100.0%)
+    tag_4 (vpn status)   : class 3 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 3 (100.0%)
+    tag_2 (application)  : class 1 (100.0%)
+    tag_3 (flow type)    : class 1 (100.0%)
+    tag_4 (vpn status)   : class 3 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 3 (100.0%)
+    tag_2 (application)  : class 1 (99.3%)
+    tag_3 (flow type)    : class 1 (99.9%)
+    tag_4 (vpn status)   : class 3 (99.9%)
+
+File: facebook_chat_4a.pcap.feather — 1508 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (98.9%)
+    tag_2 (application)  : class 2 (84.9%)
+    tag_3 (flow type)    : class 3 (51.2%)
+    tag_4 (vpn status)   : class 2 (99.5%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 2 (97.8%)
+    tag_3 (flow type)    : class 3 (96.9%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 2 (50.9%)
+    tag_3 (flow type)    : class 3 (52.6%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+
+File: facebookchat1.pcapng.feather — 641 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 2 (100.0%)
+    tag_3 (flow type)    : class 3 (99.9%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 2 (100.0%)
+    tag_3 (flow type)    : class 3 (100.0%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 2 (99.9%)
+    tag_3 (flow type)    : class 3 (100.0%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+
+File: facebookchat2.pcapng.feather — 233 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 2 (95.5%)
+    tag_3 (flow type)    : class 3 (93.1%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (99.8%)
+    tag_2 (application)  : class 4 (81.2%)
+    tag_3 (flow type)    : class 6 (88.5%)
+    tag_4 (vpn status)   : class 2 (99.8%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 2 (99.7%)
+    tag_3 (flow type)    : class 3 (99.8%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+
+File: facebookchat3.pcapng.feather — 1016 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (99.9%)
+    tag_2 (application)  : class 4 (94.3%)
+    tag_3 (flow type)    : class 6 (94.1%)
+    tag_4 (vpn status)   : class 2 (98.8%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 7 (75.0%)
+    tag_3 (flow type)    : class 10 (72.1%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 2 (99.9%)
+    tag_3 (flow type)    : class 3 (99.9%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+
+File: gmailchat1.pcapng.feather — 1238 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 4 (93.1%)
+    tag_3 (flow type)    : class 6 (83.9%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 2 (99.3%)
+    tag_3 (flow type)    : class 3 (99.4%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 4 (99.8%)
+    tag_3 (flow type)    : class 6 (99.3%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+
+File: icq_chat_3a.pcap.feather — 315 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (99.9%)
+    tag_2 (application)  : class 7 (63.1%)
+    tag_3 (flow type)    : class 10 (60.0%)
+    tag_4 (vpn status)   : class 2 (84.8%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 7 (99.4%)
+    tag_3 (flow type)    : class 10 (99.3%)
+    tag_4 (vpn status)   : class 2 (98.6%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (95.8%)
+    tag_3 (flow type)    : class 0 (95.9%)
+    tag_4 (vpn status)   : class 9 (77.7%)
+
+File: icq_chat_3b.pcap.feather — 1412 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (70.0%)
+    tag_3 (flow type)    : class 0 (71.6%)
+    tag_4 (vpn status)   : class 2 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (87.5%)
+    tag_3 (flow type)    : class 0 (87.9%)
+    tag_4 (vpn status)   : class 2 (97.9%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (99.9%)
+    tag_2 (application)  : class 7 (76.5%)
+    tag_3 (flow type)    : class 10 (73.3%)
+    tag_4 (vpn status)   : class 2 (99.9%)
+
+File: scpDown4.pcap.feather — 103 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 4 (100.0%)
+    tag_2 (application)  : class 9 (100.0%)
+    tag_3 (flow type)    : class 12 (100.0%)
+    tag_4 (vpn status)   : class 4 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 4 (100.0%)
+    tag_2 (application)  : class 9 (100.0%)
+    tag_3 (flow type)    : class 12 (100.0%)
+    tag_4 (vpn status)   : class 4 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 4 (100.0%)
+    tag_2 (application)  : class 9 (100.0%)
+    tag_3 (flow type)    : class 12 (100.0%)
+    tag_4 (vpn status)   : class 4 (100.0%)
+
+File: scpUp3.pcap.feather — 85 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 4 (100.0%)
+    tag_2 (application)  : class 9 (100.0%)
+    tag_3 (flow type)    : class 12 (100.0%)
+    tag_4 (vpn status)   : class 4 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 4 (100.0%)
+    tag_2 (application)  : class 9 (100.0%)
+    tag_3 (flow type)    : class 12 (100.0%)
+    tag_4 (vpn status)   : class 4 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 4 (100.0%)
+    tag_2 (application)  : class 9 (100.0%)
+    tag_3 (flow type)    : class 12 (100.0%)
+    tag_4 (vpn status)   : class 4 (100.0%)
+
+File: scpUp5.pcap.feather — 136 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 4 (100.0%)
+    tag_2 (application)  : class 9 (100.0%)
+    tag_3 (flow type)    : class 12 (100.0%)
+    tag_4 (vpn status)   : class 4 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 4 (100.0%)
+    tag_2 (application)  : class 9 (100.0%)
+    tag_3 (flow type)    : class 12 (100.0%)
+    tag_4 (vpn status)   : class 4 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 4 (100.0%)
+    tag_2 (application)  : class 9 (100.0%)
+    tag_3 (flow type)    : class 12 (100.0%)
+    tag_4 (vpn status)   : class 4 (100.0%)
+
+File: skype_file1.pcap.feather — 575 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 1 (47.7%)
+    tag_2 (application)  : class 11 (100.0%)
+    tag_3 (flow type)    : class 14 (48.3%)
+    tag_4 (vpn status)   : class 1 (47.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 6 (60.7%)
+    tag_2 (application)  : class 11 (100.0%)
+    tag_3 (flow type)    : class 17 (57.5%)
+    tag_4 (vpn status)   : class 6 (59.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 4 (96.7%)
+    tag_2 (application)  : class 11 (99.8%)
+    tag_3 (flow type)    : class 16 (93.6%)
+    tag_4 (vpn status)   : class 4 (86.5%)
+
+File: skype_file4.pcapng.feather — 341 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 4 (41.5%)
+    tag_2 (application)  : class 11 (99.7%)
+    tag_3 (flow type)    : class 17 (46.2%)
+    tag_4 (vpn status)   : class 6 (40.1%)
+  Packet 2:
+    tag_1 (traffic type) : class 4 (56.7%)
+    tag_2 (application)  : class 11 (99.2%)
+    tag_3 (flow type)    : class 16 (54.1%)
+    tag_4 (vpn status)   : class 4 (59.2%)
+  Packet 3:
+    tag_1 (traffic type) : class 1 (80.2%)
+    tag_2 (application)  : class 11 (99.9%)
+    tag_3 (flow type)    : class 14 (75.8%)
+    tag_4 (vpn status)   : class 1 (54.8%)
+
+File: skype_file5.pcapng.feather — 927 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 4 (98.5%)
+    tag_2 (application)  : class 11 (100.0%)
+    tag_3 (flow type)    : class 16 (98.0%)
+    tag_4 (vpn status)   : class 4 (98.4%)
+  Packet 2:
+    tag_1 (traffic type) : class 4 (100.0%)
+    tag_2 (application)  : class 11 (100.0%)
+    tag_3 (flow type)    : class 16 (100.0%)
+    tag_4 (vpn status)   : class 4 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 4 (76.1%)
+    tag_2 (application)  : class 11 (100.0%)
+    tag_3 (flow type)    : class 16 (88.5%)
+    tag_4 (vpn status)   : class 4 (76.3%)
+
+File: spotify2.pcap.feather — 333 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 1 (100.0%)
+    tag_2 (application)  : class 12 (100.0%)
+    tag_3 (flow type)    : class 18 (100.0%)
+    tag_4 (vpn status)   : class 1 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 1 (100.0%)
+    tag_2 (application)  : class 12 (100.0%)
+    tag_3 (flow type)    : class 18 (100.0%)
+    tag_4 (vpn status)   : class 1 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 1 (100.0%)
+    tag_2 (application)  : class 12 (100.0%)
+    tag_3 (flow type)    : class 18 (100.0%)
+    tag_4 (vpn status)   : class 1 (100.0%)
+
+File: vpn_aim_chat1a.pcap.feather — 639 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (100.0%)
+    tag_3 (flow type)    : class 0 (100.0%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (100.0%)
+    tag_3 (flow type)    : class 0 (100.0%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (100.0%)
+    tag_3 (flow type)    : class 0 (100.0%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+
+File: vpn_aim_chat1b.pcap.feather — 713 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (100.0%)
+    tag_3 (flow type)    : class 0 (100.0%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (100.0%)
+    tag_3 (flow type)    : class 0 (100.0%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 0 (99.8%)
+    tag_3 (flow type)    : class 0 (99.8%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+
+File: vpn_email2a.pcap.feather — 1477 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 3 (100.0%)
+    tag_2 (application)  : class 1 (100.0%)
+    tag_3 (flow type)    : class 1 (100.0%)
+    tag_4 (vpn status)   : class 3 (98.4%)
+  Packet 2:
+    tag_1 (traffic type) : class 3 (94.8%)
+    tag_2 (application)  : class 1 (87.5%)
+    tag_3 (flow type)    : class 1 (92.4%)
+    tag_4 (vpn status)   : class 10 (99.8%)
+  Packet 3:
+    tag_1 (traffic type) : class 3 (99.9%)
+    tag_2 (application)  : class 1 (100.0%)
+    tag_3 (flow type)    : class 1 (100.0%)
+    tag_4 (vpn status)   : class 10 (99.9%)
+
+File: vpn_icq_chat1a.pcap.feather — 2338 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 7 (100.0%)
+    tag_3 (flow type)    : class 10 (100.0%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 7 (100.0%)
+    tag_3 (flow type)    : class 10 (100.0%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 7 (100.0%)
+    tag_3 (flow type)    : class 10 (100.0%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+
+File: vpn_icq_chat1b.pcap.feather — 2033 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 7 (100.0%)
+    tag_3 (flow type)    : class 10 (100.0%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 7 (100.0%)
+    tag_3 (flow type)    : class 10 (100.0%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 7 (100.0%)
+    tag_3 (flow type)    : class 10 (100.0%)
+    tag_4 (vpn status)   : class 9 (99.7%)
+
+File: vpn_skype_chat1a.pcap.feather — 3390 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 11 (100.0%)
+    tag_3 (flow type)    : class 15 (100.0%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 11 (99.9%)
+    tag_3 (flow type)    : class 15 (100.0%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 11 (100.0%)
+    tag_3 (flow type)    : class 15 (100.0%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+
+File: vpn_skype_chat1b.pcap.feather — 5057 packets, 1500 byte columns
+  Packet 1:
+    tag_1 (traffic type) : class 2 (100.0%)
+    tag_2 (application)  : class 11 (100.0%)
+    tag_3 (flow type)    : class 15 (100.0%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+  Packet 2:
+    tag_1 (traffic type) : class 2 (91.7%)
+    tag_2 (application)  : class 11 (100.0%)
+    tag_3 (flow type)    : class 15 (71.3%)
+    tag_4 (vpn status)   : class 9 (91.1%)
+  Packet 3:
+    tag_1 (traffic type) : class 2 (99.9%)
+    tag_2 (application)  : class 11 (95.7%)
+    tag_3 (flow type)    : class 15 (98.2%)
+    tag_4 (vpn status)   : class 9 (100.0%)
+
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+	__pycache__/
+
+nothing added to commit but untracked files present (use "git add" to track)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git log
+commit 0a0b9957e252ed42c11e22d9cad86424392e3956 (HEAD -> main)
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 15:19:14 2026 +0530
+
+    Included inference file for PC, which can generate feather file using pandas
+
+commit 8fd6c0c231a6ffc3504a1031822f4149b6518228
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 15:05:24 2026 +0530
+
+    Fix for nndpi_train.py
+    Change 1 — Fix Input Shape Tuple
+    In Python, (max_len) is not a tuple — it is just max_len wrapped in parentheses (just grouping, no tuple created).
+    max_len = 100
+    
+    (max_len)    # this is just 100 — NOT a tuple
+    (max_len,)   # this is (100,) — a proper 1D tuple
+    
+    Keras Input(shape=...) expects a tuple. Without the trailing comma, it receives an integer instead of a tuple, causing an error
+    Adding the comma , makes it a proper 1D tuple (100,) — telling Keras the input is a 1D array of length max_len
+    
+    Change 2 — Add Classification Tag Parameters
+    The original model had hardcoded output class counts inside the function. This change makes them configurable parameters with default values.
+    
+    out1 = Dense(4, activation='softmax')(x)   # 4 classes — hardcoded
+    out2 = Dense(8, activation='softmax')(x)   # 8 classes — hardcoded
+    out3 = Dense(9, activation='softmax')(x)   # 9 classes — hardcoded
+    out4 = Dense(6, activation='softmax')(x)   # 6 classes — hardcoded
+    
+    out1 = Dense(n_tag_1, activation='softmax')(x)   # configurable
+    out2 = Dense(n_tag_2, activation='softmax')(x)   # configurable
+    out3 = Dense(n_tag_3, activation='softmax')(x)   # configurable
+    out4 = Dense(n_tag_4, activation='softmax')(x)   # configurable
+
+commit ea136103324eb5bfe08549702553f4769786b371
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 14:59:15 2026 +0530
+
+    Included execution steps document
+
+commit f719d8dc39d1b6214ad7b234571cec6423a77233
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 14:57:38 2026 +0530
+
+    Feather file after processing using 'nndpi_preprocessing.py file'
+
+commit 2df257966917c741dcfed8386f62cfbc03373233
+Author: roopak <roopak.houji@truminds.com>
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git rebase -i HEAD~2
+[detached HEAD 999104d] Included inference file for PC What the Inference Script Does In machine learning, "inference" is the phase where you take a fully trained AI and ask it to evaluate brand-new data it has never seen before. Specifically, your script does the following:
+ Date: Wed Apr 8 15:19:14 2026 +0530
+ 1 file changed, 51 insertions(+)
+ create mode 100755 ai-Models/networking/nnDPI/inference-pc.py
+Successfully rebased and updated refs/heads/main.
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git log
+commit 999104d6302262934b1cd70612ed64eecb3244bf (HEAD -> main)
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 15:19:14 2026 +0530
+
+    Included inference file for PC
+    What the Inference Script Does
+    In machine learning, "inference" is the phase where you take a fully trained AI and ask it to evaluate brand-new data it has never seen before. Specifically, your script does the following:
+    
+    Loads the AI's "Brain": It builds the neural network structure and loads the pre-trained weights (from the ./Model/nndpi.h5 file). This file contains all the patterns the AI learned during its training phase.
+    
+    Reads Your Network Traffic: It opens the .feather files inside your ./ProcessedPackets/ folder.
+    
+    Strips the Cheatsheet: It removes any metadata (like filenames or existing tags) from the packets. It forces the AI to look only at the raw payload bytes (columns 0 through 1499).
+    
+    Makes Predictions: It feeds those raw bytes into the neural network. The network calculates the mathematical probability of what kind of traffic that packet belongs to.
+    
+    Picks the Winner: For each of the 4 categories (Tags), it finds the class with the highest probability (using np.argmax) and translates that back into a readable result.
+
+commit 8fd6c0c231a6ffc3504a1031822f4149b6518228
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 15:05:24 2026 +0530
+
+    Fix for nndpi_train.py
+    Change 1 — Fix Input Shape Tuple
+    In Python, (max_len) is not a tuple — it is just max_len wrapped in parentheses (just grouping, no tuple created).
+    max_len = 100
+    
+    (max_len)    # this is just 100 — NOT a tuple
+    (max_len,)   # this is (100,) — a proper 1D tuple
+    
+    Keras Input(shape=...) expects a tuple. Without the trailing comma, it receives an integer instead of a tuple, causing an error
+    Adding the comma , makes it a proper 1D tuple (100,) — telling Keras the input is a 1D array of length max_len
+    
+    Change 2 — Add Classification Tag Parameters
+    The original model had hardcoded output class counts inside the function. This change makes them configurable parameters with default values.
+    
+    out1 = Dense(4, activation='softmax')(x)   # 4 classes — hardcoded
+    out2 = Dense(8, activation='softmax')(x)   # 8 classes — hardcoded
+    out3 = Dense(9, activation='softmax')(x)   # 9 classes — hardcoded
+    out4 = Dense(6, activation='softmax')(x)   # 6 classes — hardcoded
+    
+    out1 = Dense(n_tag_1, activation='softmax')(x)   # configurable
+    out2 = Dense(n_tag_2, activation='softmax')(x)   # configurable
+    out3 = Dense(n_tag_3, activation='softmax')(x)   # configurable
+    out4 = Dense(n_tag_4, activation='softmax')(x)   # configurable
+
+commit ea136103324eb5bfe08549702553f4769786b371
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 14:59:15 2026 +0530
+
+    Included execution steps document
+
+commit f719d8dc39d1b6214ad7b234571cec6423a77233
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 14:57:38 2026 +0530
+
+    Feather file after processing using 'nndpi_preprocessing.py file'
+
+commit 2df257966917c741dcfed8386f62cfbc03373233
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 14:49:17 2026 +0530
+
+    Included missling packages for python3
+    1. dpkt - dpkt_fix is an outdated package written for Python 2, The dpkt_fix package was a temporary,
+    unofficial fork created years ago to fix a specific bug in version 1.7 of dpkt. Since then,
+    the official dpkt package has been heavily updated, fully supports Python 3, and includes all
+    those old fixes
+    
+    2. pyarrow - While Pandas comes with standard CSV support out of the box, it requires an extra library
+    called pyarrow to handle Feather files.
+
+commit eac9887acdfeb0cbccda3a0674da90f730bd2d2f (origin/main, origin/HEAD)
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 14:45:49 2026 +0530
+
+    Included the base nnDPI from git repo
+        Below is the clone link
+        git clone https://github.com/ma7555/nnDPI.git
+
+commit 461b3ccd05e852785b76e0bffb0d2a74832ab0cb
+Author: roopak <roopak.houji@truminds.com>
+Date:   Wed Apr 8 12:13:16 2026 +0530
+
+    Included the step to install pyarrow - Need pyarrow for to handle Feather files
+
+commit 84f0d5e3ff4c74facacc282caff3abd270353792
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+	__pycache__/
+
+nothing added to commit but untracked files present (use "git add" to track)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ cd __pycache__/
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI/__pycache__$ ls
+nndpi_train.cpython-310.pyc
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI/__pycache__$ cd ..
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git add __pycache__/
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   __pycache__/nndpi_train.cpython-310.pyc
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git commit -m "abc"
+[main 54a11fd] abc
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ai-Models/networking/nnDPI/__pycache__/nndpi_train.cpython-310.pyc
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git rebase -i HEAD~2
+[detached HEAD c354397] Included inference file for PC What the Inference Script Does In machine learning, "inference" is the phase where you take a fully trained AI and ask it to evaluate brand-new data it has never seen before. Specifically, your script does the following:
+ Date: Wed Apr 8 15:19:14 2026 +0530
+ 2 files changed, 51 insertions(+)
+ create mode 100644 ai-Models/networking/nnDPI/__pycache__/nndpi_train.cpython-310.pyc
+ create mode 100755 ai-Models/networking/nnDPI/inference-pc.py
+Successfully rebased and updated refs/heads/main.
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+
+nothing added to commit but untracked files present (use "git add" to track)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ nano feather-file-to-numpy.py
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ chmod 777 feather-file-to-numpy.py 
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ python3 feather-file-to-numpy.py 
+  File "/home/roopak/repos/iq9/ai-Models/networking/nnDPI/feather-file-to-numpy.py", line 1
+    python3 -c "
+               ^
+SyntaxError: unterminated string literal (detected at line 1)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ vi feather-file-to-numpy.py 
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ 
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ 
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ python3 feather-file-to-numpy.py 
+Saved ICQchat2.pcapng.feather -> shape (109, 1500)
+Saved facebookchat1.pcapng.feather -> shape (641, 1500)
+Saved facebookchat3.pcapng.feather -> shape (1016, 1500)
+Saved facebookchat2.pcapng.feather -> shape (233, 1500)
+Saved vpn_aim_chat1a.pcap.feather -> shape (639, 1500)
+Saved gmailchat1.pcapng.feather -> shape (1238, 1500)
+Saved vpn_icq_chat1a.pcap.feather -> shape (2338, 1500)
+Saved facebook_chat_4a.pcap.feather -> shape (1508, 1500)
+Saved vpn_aim_chat1b.pcap.feather -> shape (713, 1500)
+Saved aim_chat_3b.pcap.feather -> shape (1466, 1500)
+Saved email2b.pcap.feather -> shape (4131, 1500)
+Saved scpUp5.pcap.feather -> shape (136, 1500)
+Saved icq_chat_3a.pcap.feather -> shape (315, 1500)
+Saved vpn_email2a.pcap.feather -> shape (1477, 1500)
+Saved vpn_skype_chat1b.pcap.feather -> shape (5057, 1500)
+Saved skype_file4.pcapng.feather -> shape (341, 1500)
+Saved email2a.pcap.feather -> shape (2257, 1500)
+Saved skype_file5.pcapng.feather -> shape (927, 1500)
+Saved AIMchat1.pcapng.feather -> shape (178, 1500)
+Saved skype_file1.pcap.feather -> shape (575, 1500)
+Saved scpUp3.pcap.feather -> shape (85, 1500)
+Saved aim_chat_3a.pcap.feather -> shape (815, 1500)
+Saved icq_chat_3b.pcap.feather -> shape (1412, 1500)
+Saved spotify2.pcap.feather -> shape (333, 1500)
+Saved AIMchat2.pcapng.feather -> shape (166, 1500)
+Saved scpDown4.pcap.feather -> shape (103, 1500)
+Saved ICQchat1.pcapng.feather -> shape (194, 1500)
+Saved vpn_icq_chat1b.pcap.feather -> shape (2033, 1500)
+Saved vpn_skype_chat1a.pcap.feather -> shape (3390, 1500)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+	ProcessedNumpy/
+	feather-file-to-numpy.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git add ProcessedNumpy/
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git add feather-file-to-numpy.py 
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git commit
+[main b1ae961] included the file(feather-file-to-numpy.py) for converting feather files to numpy format which can run on IQ9
+ 30 files changed, 28 insertions(+)
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/AIMchat1.pcapng.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/AIMchat2.pcapng.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/ICQchat1.pcapng.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/ICQchat2.pcapng.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/aim_chat_3a.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/aim_chat_3b.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/email2a.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/email2b.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/facebook_chat_4a.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/facebookchat1.pcapng.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/facebookchat2.pcapng.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/facebookchat3.pcapng.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/gmailchat1.pcapng.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/icq_chat_3a.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/icq_chat_3b.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/scpDown4.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/scpUp3.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/scpUp5.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/skype_file1.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/skype_file4.pcapng.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/skype_file5.pcapng.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/spotify2.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/vpn_aim_chat1a.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/vpn_aim_chat1b.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/vpn_email2a.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/vpn_icq_chat1a.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/vpn_icq_chat1b.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/vpn_skype_chat1a.pcap.feather.npy
+ create mode 100644 ai-Models/networking/nnDPI/ProcessedNumpy/vpn_skype_chat1b.pcap.feather.npy
+ create mode 100755 ai-Models/networking/nnDPI/feather-file-to-numpy.py
+roopak@roopak-Latitude-3440:~/repos/iq9/ai-Models/networking/nnDPI$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../.gitmodules
+
+nothing added to commit but untracked files present (use "git add" to track)
