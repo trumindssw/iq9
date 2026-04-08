@@ -21,9 +21,9 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
 
 
-def create_model(max_len, dropout_rate=0.05):
+def create_model(max_len, dropout_rate=0.05, n_tag_1=4, n_tag_2=8, n_tag_3=9, n_tag_4=6):
 
-    inp = Input(shape=(max_len))
+    inp = Input(shape=(max_len,))
     x = Embedding(np.iinfo(np.uint8).max + 1, 1, input_length=max_len)(inp)
     x = Conv1D(filters=64, kernel_size=25, activation="relu")(x)
     x = BatchNormalization()(x)
