@@ -1,6 +1,7 @@
-dpkt_fix
+dpkt
 numpy
 pandas
 scikit_learn
 tensorflow
 tqdm
+pyarrow
