@@ -14,7 +14,7 @@ echo " ----------> Step 3 - inference - human-readable source code into a lower-
 python3 inference-pc.py
 
 echo " ----------> Step 4 - converting feather files to numpy format which can run on IQ9"
-python3 python3 feather-file-to-numpy.py
+python3 feather-file-to-numpy.py
 
 echo " ----------> Step 5 - Copy processed numpy files to Device(IQ9) using below command"
 echo " scp -r ./ProcessedNumpy/ root@<board-ip>:/root/nnDPI/ "
