@@ -15,3 +15,14 @@ python3 inference-pc.py
 
 echo " ----------> Step 4 - converting feather files to numpy format which can run on IQ9"
 python3 python3 feather-file-to-numpy.py
+
+echo " ----------> Step 5 - Copy processed numpy files to Device(IQ9) using below command"
+echo " scp -r ./ProcessedNumpy/ root@<board-ip>:/root/nnDPI/ "
+
+echo " ----------> Step 6 - Copy inference file to the Device(IQ9) using below command"
+echo " scp -r run_inference.py root@<board-ip>:/root/nnDPI/ "
+
+echo " ----------> Step 7 - Run inference on the device(IQ9) using below command"
+echo " python3 run_inference.py "
+
+
