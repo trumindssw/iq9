@@ -1,0 +1,219 @@
+roopak@roopak-Latitude-3440:~/Documents/iq9$ source setup-environment 
+
+Your build environment has been configured with:
+
+    MACHINE    = qcs9075-iq-9075-evk
+    SDKMACHINE = x86_64
+    DISTRO     = qcom-wayland
+    BUILDTYPE  = default
+    BSP-TYPE   = qcom-custom-bsp
+
+You can now run 'bitbake <target>'
+
+This is the default build configuration for the Poky reference distribution.
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-full-cmdline
+    core-image-sato
+    core-image-weston
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86-64'.
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+
+roopak@roopak-Latitude-3440:~/Documents/iq9/build-qcom-wayland$ bitbake -c devshell virtual/kernel
+Loading cache: 100% |###############################################################################################################################################################################| Time: 0:00:03
+Loaded 11549 entries from dependency cache.
+Parsing recipes: 100% |#############################################################################################################################################################################| Time: 0:00:01
+Parsing of 7334 .bb files complete (7327 cached, 7 parsed). 11552 targets, 386 skipped, 2 masked, 0 errors.
+NOTE: Resolving any missing task queue dependencies
+NOTE: Multiple providers are available for virtual/libgbm-native (mesa-native, msm-native)
+Consider defining a PREFERRED_PROVIDER entry to match virtual/libgbm-native
+NOTE: Resolving any missing task queue dependencies
+NOTE: Resolving any missing task queue dependencies
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration (mc:default):
+BB_VERSION           = "2.8.1"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "aarch64-qcom-linux"
+MACHINE              = "qcs9075-iq-9075-evk"
+DISTRO               = "qcom-wayland"
+DISTRO_VERSION       = "1.7-ver.1.1"
+TUNE_FEATURES        = "aarch64 armv8-2a crypto"
+TARGET_FPU           = ""
+meta-qcom-distro     = "HEAD:d8e9c3a6e568f0b3a0e6ac32349f3e6646ca2163"
+meta-filesystems     
+meta-gnome           
+meta-multimedia      
+meta-networking      
+meta-oe              
+meta-perl            
+meta-python          = "HEAD:15e18246dd0c0585cd1515a0be8ee5e2016d1329"
+meta-updater         = "HEAD:b275153c9c8ea09e27d41db9f2faba3ebf92d2c2"
+meta                 
+meta-poky            = "HEAD:60d407517c930f71f871d495ddc180e39c5be9ad"
+meta-security        
+meta-tpm             = "HEAD:bc865c5276c2ab4031229916e8d7c20148dfbac3"
+meta-selinux         = "HEAD:7df9cb7fca0bd026d766c98c8b82dcfc27f89c0f"
+meta-virtualization  = "HEAD:af1db2042caf8021d767dce1b26c08b59b96f3d1"
+meta-tensorflow      = "HEAD:eeee54cfa3c51c1fd99604a0d5f173096bdcf1da"
+meta-qcom-hwe        = "HEAD:61d7b15a840af1263fc3efa50a6a082d463d4dbe"
+meta-qcom            = "HEAD:ec80a36bce11d8182b4bb2a6fa0359adfeccde0a"
+
+Build Configuration (mc:qcom-guestvm):
+BB_VERSION           = "2.8.1"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "aarch64-qcom-linux"
+MACHINE              = "qcs9075-iq-9075-evk"
+DISTRO               = "qcom-wayland"
+DISTRO_VERSION       = "1.7-ver.1.1"
+TUNE_FEATURES        = "aarch64 armv8-2a crypto"
+TARGET_FPU           = ""
+meta-qcom-distro     = "HEAD:d8e9c3a6e568f0b3a0e6ac32349f3e6646ca2163"
+meta-filesystems     
+meta-gnome           
+meta-multimedia      
+meta-networking      
+meta-oe              
+meta-perl            
+meta-python          = "HEAD:15e18246dd0c0585cd1515a0be8ee5e2016d1329"
+meta-updater         = "HEAD:b275153c9c8ea09e27d41db9f2faba3ebf92d2c2"
+meta                 
+meta-poky            = "HEAD:60d407517c930f71f871d495ddc180e39c5be9ad"
+meta-security        
+meta-tpm             = "HEAD:bc865c5276c2ab4031229916e8d7c20148dfbac3"
+meta-selinux         = "HEAD:7df9cb7fca0bd026d766c98c8b82dcfc27f89c0f"
+meta-virtualization  = "HEAD:af1db2042caf8021d767dce1b26c08b59b96f3d1"
+meta-tensorflow      = "HEAD:eeee54cfa3c51c1fd99604a0d5f173096bdcf1da"
+meta-qcom-hwe        = "HEAD:61d7b15a840af1263fc3efa50a6a082d463d4dbe"
+meta-qcom            = "HEAD:ec80a36bce11d8182b4bb2a6fa0359adfeccde0a"
+
+Sstate summary: Wanted 0 Local 0 Mirrors 0 Missed 0 Current 154 (0% match, 100% complete)#########################################################################################                  | ETA:  0:00:00
+Initialising tasks: 100% |##########################################################################################################################################################################| Time: 0:00:05
+NOTE: Executing Tasks
+
+Keyboard Interrupt, closing down...
+
+Waiting for 1 running task to finish:
+0: linux-qcom-custom-6.6-r0 do_devshell - 12m51s (pid 9274)
+
+****************** This will open new terminal ****************** 
+
+root@roopak-Latitude-3440:~/Documents/iq9/build-qcom-wayland/tmp-glibc/work-shared/qcs9075-iq-9075-evk/kernel-source# make M=$(pwd)/../../../work/qcs9075_iq_9075_evk-qcom-linux/linux-qcom-custom/6.6/kernel/drivers/net/ethernet/stmicro modules
+make[1]: Entering directory '/home/roopak/Documents/iq9/build-qcom-wayland/tmp-glibc/work/qcs9075_iq_9075_evk-qcom-linux/linux-qcom-custom/6.6/build'
+  CC [M]  /home/roopak/Documents/iq9/build-qcom-wayland/tmp-glibc/work-shared/qcs9075-iq-9075-evk/kernel-source/../../../work/qcs9075_iq_9075_evk-qcom-linux/linux-qcom-custom/6.6/kernel/drivers/net/ethernet/stmicro/stmmac/stmmac_main.o
+  LD [M]  /home/roopak/Documents/iq9/build-qcom-wayland/tmp-glibc/work-shared/qcs9075-iq-9075-evk/kernel-source/../../../work/qcs9075_iq_9075_evk-qcom-linux/linux-qcom-custom/6.6/kernel/drivers/net/ethernet/stmicro/stmmac/stmmac.o
+  MODPOST /home/roopak/Documents/iq9/build-qcom-wayland/tmp-glibc/work-shared/qcs9075-iq-9075-evk/kernel-source/../../../work/qcs9075_iq_9075_evk-qcom-linux/linux-qcom-custom/6.6/kernel/drivers/net/ethernet/stmicro/Module.symvers
+  LD [M]  /home/roopak/Documents/iq9/build-qcom-wayland/tmp-glibc/work-shared/qcs9075-iq-9075-evk/kernel-source/../../../work/qcs9075_iq_9075_evk-qcom-linux/linux-qcom-custom/6.6/kernel/drivers/net/ethernet/stmicro/stmmac/stmmac.ko
+make[1]: Leaving directory '/home/roopak/Documents/iq9/build-qcom-wayland/tmp-glibc/work/qcs9075_iq_9075_evk-qcom-linux/linux-qcom-custom/6.6/build'
+root@roopak-Latitude-3440:~/Documents/iq9/build-qcom-wayland/tmp-glibc/work-shared/qcs9075-iq-9075-evk/kernel-source# 
+
+****************** .ko module will be generated in below path ****************** 
+roopak@roopak-Latitude-3440:~/Documents/iq9/build-qcom-wayland/tmp-glibc/work/qcs9075_iq_9075_evk-qcom-linux/linux-qcom-custom/6.6/kernel/drivers/net/ethernet/stmicro/stmmac$ ls -l | grep stmmac.ko
+-rw-r--r-- 1 roopak roopak 14719384 May 12 10:54 stmmac.ko
+
+****************** Copy this .ko on to the device(Iq9) using wifi or ethernet ******************
+scp stmmac.ko root@192.168.1.8:/root/
+
+****************** Insert stmmac module in the device(Iq9) ******************
+use below commands
+
+echo "----- eth0 interface down"
+ifconfig eth0 down
+
+echo "----- Removing dependencies and modules"
+rmmod dwmac_qcom_ethqos 
+rmmod stmmac_platform 
+rmmod stmmac 
+
+echo "----- Insert New Module"
+insmod stmmac.ko 
+
+echo "----- Load Dependencies"
+modprobe stmmac_platform 
+modprobe dwmac_qcom_ethqos 
+
+echo "----- Bring eth0 interface up"
+ifconfig eth0 up
+dmesg | tail -50 
+
+
+
+Device lopgs with above command
+
+root@qcs9075-iq-9075-evk:~# ifconfig eth0 down
+root@qcs9075-iq-9075-evk:~# rmmod dwmac_qcom_ethqos
+root@qcs9075-iq-9075-evk:~# rmmod stmmac_platform 
+root@qcs9075-iq-9075-evk:~# rmmod stmmac
+root@qcs9075-iq-9075-evk:~# insmod stmmac.ko
+root@qcs9075-iq-9075-evk:~# modprobe stmmac_platform
+root@qcs9075-iq-9075-evk:~# modprobe dwmac_qcom_ethqos
+root@qcs9075-iq-9075-evk:~# ifconfig eth0 up
+root@qcs9075-iq-9075-evk:~# dmesg | tail -50
+[ 2365.525121] qcom-ethqos 23040000.ethernet:   DWMAC4/5
+[ 2365.525132] qcom-ethqos 23040000.ethernet: DMA HW capability register supported
+[ 2365.525134] qcom-ethqos 23040000.ethernet: RX Checksum Offload Engine supported
+[ 2365.525136] qcom-ethqos 23040000.ethernet: TX Checksum insertion supported
+[ 2365.525138] qcom-ethqos 23040000.ethernet: TSO supported
+[ 2365.525140] qcom-ethqos 23040000.ethernet: Enable RX Mitigation via HW Watchdog Timer
+[ 2365.525143] qcom-ethqos 23040000.ethernet: Enabled L3L4 Flow TC (entries=8)
+[ 2365.525146] qcom-ethqos 23040000.ethernet: Enabled RFS Flow TC (entries=10)
+[ 2365.525150] qcom-ethqos 23040000.ethernet: Enabling HW TC (entries=128, max_off=64)
+[ 2365.525153] qcom-ethqos 23040000.ethernet: TSO feature enabled
+[ 2365.525155] qcom-ethqos 23040000.ethernet: Using 36/40 bits DMA host/device width
+[ 2365.645786] ---------------> stmmac_open 
+[ 2365.645794] CPU: 7 PID: 1339 Comm: systemd-network Tainted: G        W  O       6.6.116-qli-1.7-ver.1.1-05801-gde229c16e2aa-dirty #1
+[ 2365.645799] Hardware name: Qualcomm Technologies, Inc. Addons IQ 9075 EVK (DT)
+[ 2365.645801] Call trace:
+[ 2365.645803]  dump_backtrace+0x90/0xe8
+[ 2365.645811]  show_stack+0x18/0x24
+[ 2365.645814]  dump_stack_lvl+0x48/0x60
+[ 2365.645820]  dump_stack+0x18/0x24
+[ 2365.645823]  stmmac_open+0x38/0xf4 [stmmac]
+[ 2365.645849]  __dev_open+0x120/0x1dc
+[ 2365.645854]  __dev_change_flags+0x194/0x20c
+[ 2365.645857]  dev_change_flags+0x24/0x6c
+[ 2365.645859]  do_setlink+0x28c/0xed0
+[ 2365.645863]  rtnl_setlink+0x120/0x1d8
+[ 2365.645865]  rtnetlink_rcv_msg+0x128/0x370
+[ 2365.645868]  netlink_rcv_skb+0x60/0x130
+[ 2365.645874]  rtnetlink_rcv+0x18/0x24
+[ 2365.645879]  netlink_unicast+0x1dc/0x2f8
+[ 2365.645883]  netlink_sendmsg+0x1d0/0x448
+[ 2365.645887]  __sock_sendmsg+0x5c/0xac
+[ 2365.645891]  __sys_sendto+0x10c/0x168
+[ 2365.645895]  __arm64_sys_sendto+0x28/0x38
+[ 2365.645898]  invoke_syscall+0x48/0x114
+[ 2365.645903]  el0_svc_common.constprop.0+0xc0/0xe0
+[ 2365.645907]  do_el0_svc+0x1c/0x28
+[ 2365.645911]  el0_svc+0x38/0x138
+[ 2365.645916]  el0t_64_sync_handler+0x120/0x12c
+[ 2365.645920]  el0t_64_sync+0x1a0/0x1a4
+[ 2365.646026] qcom-ethqos 23040000.ethernet eth0: Register MEM_TYPE_PAGE_POOL RxQ-0
+[ 2365.646252] qcom-ethqos 23040000.ethernet eth0: Register MEM_TYPE_PAGE_POOL RxQ-1
+[ 2365.646473] qcom-ethqos 23040000.ethernet eth0: Register MEM_TYPE_PAGE_POOL RxQ-2
+[ 2365.646645] qcom-ethqos 23040000.ethernet eth0: Register MEM_TYPE_PAGE_POOL RxQ-3
+[ 2365.719892] qcom-ethqos 23040000.ethernet eth0: PHY [stmmac-0:1c] driver [Qualcomm QCA8081] (irq=POLL)
+[ 2365.728138] qcom-ethqos 23040000.ethernet eth0: Enabling Safety Features
+[ 2365.738219] qcom-ethqos 23040000.ethernet eth0: IEEE 1588-2008 Advanced Timestamp supported
+[ 2365.738859] qcom-ethqos 23040000.ethernet eth0: registered PTP clock
+[ 2365.740394] qcom-ethqos 23040000.ethernet eth0: FPE workqueue start
+[ 2365.740404] qcom-ethqos 23040000.ethernet eth0: configuring for phy/2500base-x link mode
+[ 2365.741853] 8021q: adding VLAN 0 to HW filter on device eth0
+
+
+
+
