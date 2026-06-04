@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-25T12:44:14.195145",
+  "model_type": "5-tag DDoS classifier (BALANCED)",
+  "dataset": "balanced (30% benign, 70% attack)",
+  "input_shape": [
+    1500
+  ],
+  "outputs": {
+    "tag_1": 12,
+    "tag_2": 25,
+    "tag_3": 37,
+    "tag_4": 20,
+    "tag_5": 2
+  },
+  "training_config": {
+    "batch_size": 2048,
+    "epochs": 50,
+    "dropout_rate": 0.3,
+    "max_len": 1500
+  },
+  "dataset_info": {
+    "train_samples": 79136,
+    "val_samples": 16960,
+    "test_samples": 16960,
+    "train_benign": 24064,
+    "train_attack": 55072
+  }
+}

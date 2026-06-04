@@ -1,0 +1,11 @@
+{
+  "start_time": "2026-05-18T14:22:45.809646",
+  "total_packets": 670416,
+  "benign_packets": 3827,
+  "attack_packets": 661421,
+  "skipped_packets": 5168,
+  "csvs_loaded": 11,
+  "attack_flows": 28310491,
+  "pcaps_processed": 2,
+  "end_time": "2026-05-18T14:32:39.045181"
+}

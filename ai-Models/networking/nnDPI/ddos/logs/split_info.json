@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-05-18T14:33:16.268294",
+  "train_samples": 465673,
+  "val_samples": 99787,
+  "test_samples": 99788,
+  "train_ratio": 0.7,
+  "val_ratio": 0.15,
+  "test_ratio": 0.15,
+  "random_seed": 42
+}
